@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import logo from '../assets/LOGOSB-1.svg';
 import rectangle3 from '../assets/Rectangle-3.svg';
 import rectangle4 from '../assets/Rectangle-4.svg';
 import rectangle9 from './assets/Rectangle-9.svg';
