@@ -1,0 +1,162 @@
+body, html, .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Biryani', sans-serif;
+    background-color: #949494;
+    color: #fff;
+  }
+  
+  .container {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav li {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35.3px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    position: relative;
+    padding: 50px;
+  }
+  
+  .hero-text h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 97.07px;
+  }
+  
+  .learn-more-btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .learn-more-btn img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .learn-more-btn button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .video-loop {
+    position: absolute;
+    top: 150px;
+    left: 60%;
+    width: 598px;
+    height: 372px;
+  }
+  
+  .video-loop img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-loop p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35.3px;
+    text-align: center;
+  }
+  
+  .footer {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notification {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .notification img {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .notify-text h2, .notify-text h3, .notify-text p {
+    margin: 0;
+  }
+  
+  .notify-text h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56.48px;
+  }
+  
+  .notify-text h3 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #3e96c7;
+  }
+  
+  .notify-text p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42.36px;
+    max-width: 500px;
+  }
+  
+  .get-started-btn {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .get-started-btn img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .get-started-btn button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

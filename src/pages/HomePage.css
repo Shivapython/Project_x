@@ -1,0 +1,44 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.text-section {
+  flex: 1;
+  text-align: left;
+  font-size: 55px;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 700;
+}
+
+.rectangle {
+  background-color: rgba(217, 217, 217, 0.8); /* High opacity */
+  border-radius: 20px; /* Curved corners */
+  padding: 20px;
+  flex: 1;
+  margin-left: 20px;
+  max-width: 400px; /* Set a max width for the rectangle */
+}
+
+.get-started {
+  background-color: #3E96C7; /* Button background color */
+  color: white; /* Button text color */
+  font-size: 24px;
+  font-family: 'Biryani', sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
