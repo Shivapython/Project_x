@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import rectangle3 from '../assets/Rectangle-3.svg';
-import rectangle4 from '../assets/Rectangle-4.svg';
-import rectangle9 from './assets/Rectangle-9.svg';
-import image1 from '../assets/image-1.svg';
-import group3 from '../assets/Group-3.svg';
+import logo from '/src/assets/LOGOSB-1.svg';
+import rectangle3 from '/src/assets/Rectangle-3.svg';
+import rectangle4 from '/src/assets/Rectangle-4.svg';
+import rectangle9 from '/src/assets/Rectangle-9.svg';
+import image1 from '/src/assets/image-1.svg';
+import group3 from '/src/assets/Group-3.svg';
 
 
 const App = () => {
